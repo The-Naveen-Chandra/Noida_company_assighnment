@@ -1,0 +1,303 @@
+.container {
+background-color: #F7F7F8;
+
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  align-items: center;
+  flex-direction: column;
+}
+.main {
+  background-image: url(./Images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.imgDiv {
+  display: flex;
+
+  height: 100px;
+  max-width: 100%;
+  padding-right: 400px;
+}
+.logo {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 100px;
+  background-image: url(./Images/logo.png);
+}
+.divRegisterForm {
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  width: 100%;
+}
+.formSectionDiv {
+  padding: 2px;
+  gap: 4px;
+  display: flex;
+  width: 60%;
+
+  flex-direction: column;
+}
+.one {
+  display: flex;
+  width: 100%;
+  height: 50px;
+
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.efn {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  border: none;
+}
+
+.eln {
+  display: flex;
+
+  height: 100%;
+  width: 50%;
+  border: none;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+
+  gap: 4px;
+}
+.eem {
+  display: flex;
+  flex: 1.6;
+  height: 100%;
+  border: none;
+}
+.emobile {
+  display: flex;
+  flex: 1.4;
+  height: 100%;
+  border: none;
+}
+.eotp {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  border: none;
+}
+
+.three {
+  gap: 4px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+.ean {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  border: none;
+}
+.epc {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  border: none;
+}
+
+.four {
+  gap: 4px;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+
+.es {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+.ec {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+.eb {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+.five {
+  gap: 4px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+.ss {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+.ea {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+.ein {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex: 1;
+}
+.six {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  flex: 2;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 140px;
+  height: 50px;
+  background-color: #06a6a7;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.copyrightDiv {
+  height: 170px;
+  width: 100%;
+
+}
+input {
+  border: 0.5px solid rgb(196, 188, 188);
+  width: 100%;
+
+  border-radius: 4px;
+}
+.faqSetionDiv {
+  padding-bottom: 70px;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04); /* Box shadow */
+  border-radius: 5px; /* Rounded corners */
+  width: 40%;
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  margin: 5px;
+  font-size: 12px;
+  text-justify: newspaper;
+text-wrap:stable;
+}
+select{border-radius: 4px;outline: none;
+  border: none; width: 100%;
+  border: 0.5px solid rgb(196, 188, 188);
+}
+
+.faqlist {
+ font-size: 15px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+}
+
+.name {
+  font-size: 15px;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.f1 {
+  font-size: 8px;
+  display: flex;
+  flex: 1;
+}
+
+.f2 {
+  display: flex;
+  flex: 1;
+}
+
+.f3 {
+  display: flex;
+  flex: 1;
+}
+
+.f4 {
+  display: flex;
+  flex: 1;
+}
+
+.collapse-toggle {
+  text-decoration: none;
+}
+
+.content {
+  margin: 10px;
+}
+
+input{
+  outline: none;
+}
+.copyrightDiv{
+  font-size: 8px;
+  text-align: center;
+
+}
+.copyright p {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 15px;
+}
+
+
+.copyright a{
+
+  font-size: 15px;
+  color: #06a6a7;
+}
+.rtbutton{
+  background-color: transparent;
+  color: black;
+  width: 200px;
+}

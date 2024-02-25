@@ -1,0 +1,4 @@
+.welcome span {
+  opacity: 0; /* Initially hide the span elements */
+  transition: opacity 0.2s ease; /* Smooth transition for opacity */
+}
