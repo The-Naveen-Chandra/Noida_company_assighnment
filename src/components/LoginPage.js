@@ -1,15 +1,11 @@
 import React from "react";
 import "./LoginPage.css";
 import SwagatName from "./SwagatName";
-import { Router, Route, Routes, useNavigate } from 'react-router-dom';
 const LoginPage = (props) => {
   const HeaderText = "स्वागतम् !"; // Removed double quotes
   const paragraph = "Sign In to Your Account";
 
-  const navigate=useNavigate();
-  const navigateToRegisterPage=()=>{
-    navigate('/Register')
-  }
+  
   
   return (
     <div className="login_form">
@@ -51,7 +47,7 @@ const LoginPage = (props) => {
         </p>
         <div className="Resister_here">
           <p>Don't have an account?</p>
-          <button className="rtbutton"   onClick={navigateToRegisterPage}>Register here </button>
+          <button className="rtbutton"  >Register here </button>
         </div>
         <div className="ImageDiv2">
         {/* Flex container for images */}

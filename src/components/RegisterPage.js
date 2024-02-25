@@ -1,6 +1,6 @@
 import React from "react";
 import "./RegisterPage.css";
-
+import FaqSection from "./FaqSection";
 const RegisterPage = () => {
 
 
@@ -9,6 +9,7 @@ const RegisterPage = () => {
   const ans3 = `It work Amazingly. If you have any retail shop or you want to start a small business, you can join us & start earning.`;
   const ans4 = `Ohh Fishh !! Please go to Login page & Click "Forgot Password" & Follow the steps.`;
 
+ 
   return (
     <div className="container">
       <div className="main">
@@ -82,10 +83,7 @@ const RegisterPage = () => {
                 <button type="submit">Submit</button>
               </div>
               <div className="rtlogin">
-                <button className="rtbutton">
-                  {" "}
-                  <Link to="/Login"></Link> Returnn to Login{" "}
-                </button>
+                <button className="rtbutton" >Returnn to Login </button>
               </div>
             </div>
           </div>
@@ -123,6 +121,6 @@ const RegisterPage = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 export default RegisterPage;
