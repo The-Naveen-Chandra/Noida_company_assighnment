@@ -1,15 +1,13 @@
 import React from "react";
 import "./RegisterPage.css";
 import FaqSection from "./FaqSection";
+import { Link } from "react-router-dom";
 const RegisterPage = () => {
-
-
   const ans1 = `We are delighted that you are here. It's so simple, just like blinking your eyes "twice". Fill this form, you will get an ID & Password within few minutes. After first login, please upload your KYC to enjoy all the services, but wait, dont forget to change your password.`;
   const ans2 = `Hmm, That's a tricky one. Registrarion is free with complementary Recharge, Bill Payment & Money Transfer. if you need any other services, you may need to contact your KAM(Key Account manager) for further process.`;
   const ans3 = `It work Amazingly. If you have any retail shop or you want to start a small business, you can join us & start earning.`;
   const ans4 = `Ohh Fishh !! Please go to Login page & Click "Forgot Password" & Follow the steps.`;
 
- 
   return (
     <div className="container">
       <div className="main">
@@ -83,7 +81,9 @@ const RegisterPage = () => {
                 <button type="submit">Submit</button>
               </div>
               <div className="rtlogin">
-                <button className="rtbutton" >Returnn to Login </button>
+                <Link to={"/"}>
+                  <button className="rtbutton">Return to Login </button>
+                </Link>
               </div>
             </div>
           </div>
