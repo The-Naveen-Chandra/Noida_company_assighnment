@@ -112,7 +112,7 @@ const RegisterPage = () => {
         </div>
 
         <div className="copyrightDiv">
-          <hr />
+         
           <div className="copyright">
             <p>
               Copyright © 2024 <a href="#">Imwallet</a>. All Rights Reserved.
