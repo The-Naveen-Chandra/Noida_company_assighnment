@@ -31,12 +31,12 @@ const LoginPage = (props) => {
         <input className="input-i" type="text" />
         <div className="check-box">
           <input type="checkbox" id="termsCheckbox" />
-          <a id="term" href="#">
+          <a id="term" href="/term">
             Terms & Conditions
           </a>
           {/* <a href="https://www.imwallet.in/terms">Terms & Condition</a> */}
           <span className="checkmark"></span>
-          <a className="Reset_password" href="">
+          <a className="Reset_password" href="/reset_password">
             Reset Password
           </a>
         </div>
@@ -59,12 +59,12 @@ const LoginPage = (props) => {
           <div className="imageContainer">
             {/* First row */}
             <div className="imageRow">
-              <img
+              <image
                 src="https://5.imimg.com/data5/SELLER/Default/2023/10/352458160/HU/MO/SR/19048503/cbo-pharma-erp-software-500x500.png"
                 alt=""
                 className="image"
               />
-              <img
+              <image
                 src="https://images.moneycontrol.com/static-mcnews/2022/04/NPCI.png?impolicy=website&width=1600&height=900"
                 alt="Image 2"
                 className="image"
@@ -72,12 +72,12 @@ const LoginPage = (props) => {
             </div>
             {/* Second row */}
             <div className="imageRow">
-              <img
+              <image
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQIMHbKe45ZjSO4cXSeIVHYxvN5i_U_twQFwXGFwD9vbZWcLB-6J2zMNT84QvdvJWB0tY&usqp=CAU"
                 alt="Image 3"
                 className="image"
               />
-              <img
+              <image
                 src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Digital_India_logo.svg/1200px-Digital_India_logo.svg.png"
                 alt="Image 4"
                 className="image"

@@ -115,7 +115,7 @@ const RegisterPage = () => {
          
           <div className="copyright">
             <p>
-              Copyright © 2024 <a href="#">Imwallet</a>. All Rights Reserved.
+              Copyright © 2024 <a href="/copyright">Imwallet</a>. All Rights Reserved.
             </p>
           </div>
         </div>

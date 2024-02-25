@@ -11,7 +11,7 @@ function FaqSection(props) {
     <div className="faqSetionDivf">
       <div className="faqlist">
         <div className="name1">
-          <a href="#" onClick={toggleCollapse} className="collapse-toggle">
+          <a href="/" onClick={toggleCollapse} className="collapse-toggle">
             {isCollapsed ? "▲" : "▼"} {props.que}
           </a>
         </div>
