@@ -40,7 +40,7 @@ const LoginPage = (props) => {
             Reset Password
           </a>
         </div>
-        <button className="input-i loginButton">Secure Login</button>
+        <button className="input-i loginButton" >Secure Login</button>
         <p className="p-warning">
           If having an issue in login, Press ctrl + shift + R. Then try.
         </p>

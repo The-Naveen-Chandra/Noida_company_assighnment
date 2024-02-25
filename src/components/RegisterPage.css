@@ -1,15 +1,12 @@
 .container {
-  background-color: #f7f7f8;
-
+background-color: #F7F7F8;
   display: flex;
   width: 100%;
-  height: 100vh;
-
+  height: 100%;
   align-items: center;
   flex-direction: column;
 }
 .main {
-  margin-right: 35px;
   background-image: url(./Images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
   display: flex;
   flex-wrap: nowrap;
@@ -47,6 +44,7 @@
   gap: 4px;
   display: flex;
   width: 70%;
+
   flex-direction: column;
 }
 .one {
@@ -202,6 +200,7 @@ a {
 .copyrightDiv {
   height: 170px;
   width: 100%;
+
 }
 input {
   border: 0.5px solid rgb(196, 188, 188);
@@ -220,18 +219,15 @@ input {
   margin: 5px;
   font-size: 12px;
   text-justify: newspaper;
-  text-wrap: stable;
+text-wrap:stable;
 }
-select {
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  width: 100%;
+select{border-radius: 4px;outline: none;
+  border: none; width: 100%;
   border: 0.5px solid rgb(196, 188, 188);
 }
 
 .faqlist {
-  font-size: 15px;
+ font-size: 15px;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -276,12 +272,13 @@ select {
   margin: 10px;
 }
 
-input {
+input{
   outline: none;
 }
-.copyrightDiv {
+.copyrightDiv{
   font-size: 8px;
   text-align: center;
+
 }
 .copyright p {
   padding: 100px;
@@ -291,90 +288,33 @@ input {
   font-size: 15px;
 }
 
-.copyright a {
+
+.copyright a{
+
   font-size: 15px;
   color: #06a6a7;
 }
-.rtbutton {
+.rtbutton{
   background-color: transparent;
   color: black;
   width: 200px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 740px) {
+@media screen and (min-width: 600px) and (max-width: 713px) {
+  
   .divRegisterForm {
     display: flex;
     flex-direction: column;
     height: 370px;
     width: 100%;
     align-items: center;
-    gap: 20px;
   }
   .imgDiv {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .logo {
-    margin-left: 180px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 150px;
+  align-items: center;
+  justify-content: center;
     height: 100px;
-    background-image: url(./Images/logo.png);
-  }
+    max-width: 100%;
 
-  .six {
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 50px;
-    flex: 2;
-
-    justify-content: center;
-    align-items: center;
   }
-  .main {
-    background-image: url(./Images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    height:80vh  
-  }
-  .copyrightDiv {
-   margin: 100px;
-  }
-  .faqSetionDiv {
-  
-    flex-direction: column;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04); /* Box shadow */
-    border-radius: 5px; /* Rounded corners */
-    display: flex;
-    justify-content: center; /* Center the items horizontally */
-    margin: 5px;
-    font-size: 12px;
-    text-justify: newspaper;
-    text-wrap: stable;
-  }
-  .faqlist {
-
-
-    font-size: 15px;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-  
-  
 }
