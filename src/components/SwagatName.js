@@ -12,7 +12,7 @@ export default function SwagatName(props) {
       delay: index * 200 // 0.2 seconds delay for each letter
     }));
     setLetters(lettersArray);
-  }, []);
+  }, [headerText, lettersArray]);
 
   useEffect(() => {
     const revealLetters = () => {
